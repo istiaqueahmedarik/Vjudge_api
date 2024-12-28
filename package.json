@@ -1,0 +1,15 @@
+{
+  "name": "vjapi",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "hono": "^4.6.15",
+    "playwright": "^1.49.1",
+    "playwright-extra": "^4.3.6",
+    "vjapi": "file:"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
